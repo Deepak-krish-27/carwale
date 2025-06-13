@@ -1,0 +1,344 @@
+.section1{
+    background: url("C:/Users/Deepak/OneDrive/Desktop/carwala/imgs/bg01-Seltos-Line.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    /* padding: 300px; */
+}
+
+a{
+    text-decoration: none;
+}
+.sectionh3{
+    margin-top: 0%;
+}
+.section2{
+    background-color: whitesmoke;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 15px;
+    padding: 40px;
+}
+.allbrand{
+    background-color: white;
+    border: 2px whitesmoke solid;
+    border-radius: 10px;
+    padding: 50px;
+    
+}
+.box{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+.search{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.middle-bg{
+    background: url(imgs/tata\ bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.search1{
+    border-radius: 20px;
+}
+ .card-img-top {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      object-fit: cover;
+      height: 180px;
+ }
+
+
+     .car-card {
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .car-card:hover {
+      transform: translateY(-5px);
+    }
+    .car-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .car-price {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    .price-link {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .price-link:hover {
+      text-decoration: underline;
+    }
+
+
+      .news-card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      height: 100%;
+    }
+
+    .news-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .news-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .news-meta {
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    .news-date {
+      float: right;
+      color: #999;
+    }
+
+    .news-content {
+      font-size: 0.9rem;
+      color: #444;
+    }
+
+    .tab-nav .nav-link.active {
+      border-bottom: 3px solid teal;
+      color: teal !important;
+    }
+
+    .tab-nav .nav-link {
+      color: #444;
+      font-weight: 500;
+    }
+
+
+        .footer {
+      background-color: #003366;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons i {
+      font-size: 20px;
+      margin: 0 10px;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 50%;
+    }
+
+    .footer-logo img {
+      max-height: 30px;
+      margin: 10px 15px;
+    }
+
+    .download-buttons img {
+      height: 40px;
+      margin: 5px;
+    }
+
+    .footer hr {
+      border-color: rgba(255,255,255,0.2);
+    }
+  
+
+
+
+
+        .dropdown-menu.custom-menu {
+      display: none;
+      width: 100%;
+      left: 0;
+      padding: 2rem 4rem;
+      background: #fff;
+      border: none;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 100%;
+      z-index: 1000;
+      opacity: 0;
+      transition: all 0.3s ease;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .nav-item:hover .custom-menu {
+      display: grid;
+      opacity: 1;
+    }
+
+    /* .nav-link:hover .active  {
+      border-bottom: 3px solid teal;
+    } */
+
+    .dropdown-item {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .dropdown-item:hover {
+      text-decoration: underline;
+      background-color: transparent;
+    }
+
+    .navbar {
+      position: relative;
+    }
+
+  /* < ----!!used cars!!---> */
+
+        .dropdown-menu.custom-used-menu {
+      display: none;
+      width: 100%;
+      left: 0;
+      padding: 2rem 4rem;
+      background: #fff;
+      border: none;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 100%;
+      z-index: 1000;
+      opacity: 0;
+      transition: all 0.3s ease;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .nav-item:hover .custom-used-menu {
+      display: grid;
+      opacity: 1;
+    }
+
+    /* .nav-link.active {
+      border-bottom: 3px solid teal;
+    } */
+
+    .dropdown-item {
+      font-weight: 500;
+      color: #333;
+    }
+
+    /* .dropdown-item:hover {
+      text-decoration: underline;
+      background-color: transparent;
+    } */
+
+    .badge-new {
+      background-color: #e44d26;
+      color: white;
+      font-size: 0.6rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 5px;
+      vertical-align: middle;
+    }
+
+    .navbar {
+      position: relative;
+    }
+
+
+
+
+
+
+        .dropdown-menu.reviews-news-menu {
+      display: none;
+      width: 100%;
+      left: 0;
+      padding: 2rem 4rem;
+      background: #fff;
+      border: none;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 100%;
+      z-index: 1000;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+
+    .nav-item:hover .reviews-news-menu {
+      display: flex;
+      opacity: 1;
+    }
+
+    .reviews-news-menu .links {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .reviews-news-menu .articles {
+      flex: 1.2;
+      padding-left: 3rem;
+    }
+
+    .reviews-news-menu .dropdown-item {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .dropdown-item:hover {
+      text-decoration: underline;
+      background-color: transparent;
+    }
+
+    .article-box {
+      border: 1px solid #ddd;
+      border-radius: 1rem;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .article-box img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .article-box p {
+      padding: 0.75rem;
+      margin: 0;
+      font-size: 0.9rem;
+      color: #333;
+    }
+/* 
+    :hover.nav-link.active {
+      border-bottom: 3px solid teal;
+      transition: all 0.3sec;
+    } */
+     :hover.active {
+      border-bottom: 3px solid teal;
+      transition: all 0.3sec;
+    }
+
+    .navbar {
+      position: relative;
+    }
+h1{
+  border-radius: 20px;
+}

@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carwala</title>
+    <link rel="shortcut icon" href="imgs/favicon-32x32-removebg-preview.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Add to <head> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- In body -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="navtop">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Carwala</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Newcars</a>
+                        </li> -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle active" href="#">NEW CARS</a>
+                            <div class="dropdown-menu custom-menu">
+                                <a class="dropdown-item" href="#">Find New Cars</a>
+                                <a class="dropdown-item" href="#">Upcoming Cars</a>
+                                <a class="dropdown-item" href="#">New Car Loan</a>
+                                <a class="dropdown-item" href="#">New Launches</a>
+                                <a class="dropdown-item" href="#">Electric Cars</a>
+                                <a class="dropdown-item" href="#">Compare Cars</a>
+                                <a class="dropdown-item" href="#">Find Dealer</a>
+                                <a class="dropdown-item" href="#">Images</a>
+                                <a class="dropdown-item" href="#">New Car Offers</a>
+                                <a class="dropdown-item" href="#">Videos</a>
+                                <a class="dropdown-item" href="#">Popular Brands ▼</a>
+                                <a class="dropdown-item" href="#">Popular Cars ▼</a>
+                            </div>
+                        </li>
+
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Usedcars</a>
+                        </li> -->
+
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle active" href="#">USED CARS</a>
+                            <div class="dropdown-menu custom-used-menu">
+                                <a class="dropdown-item" href="#">Explore Used Cars</a>
+                                <a class="dropdown-item" href="#">CarWale abSure</a>
+                                <a class="dropdown-item" href="#">Check Car Valuation</a>
+                                <a class="dropdown-item" href="#">Sell Your Car</a>
+                                <a class="dropdown-item" href="#">Used Car Loan</a>
+                                <a class="dropdown-item" href="#">Find Dealers</a>
+                                <a class="dropdown-item" href="#">My Listings</a>
+                                <a class="dropdown-item" href="#">Car Inspection <span class="badge-new">NEW</span></a>
+                                <a class="dropdown-item" href="#">Popular Cities ▼</a>
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Reviwes&News</a>
+                        </li> -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle active" href="#">REVIEWS & NEWS</a>
+                            <div class="dropdown-menu reviews-news-menu d-flex">
+                        
+                                <div class="links">
+                                    <a class="dropdown-item" href="#">News</a>
+                                    <a class="dropdown-item" href="#">Expert Reviews</a>
+                                    <a class="dropdown-item" href="#">User Reviews</a>
+                                    <a class="dropdown-item" href="#">Special Reports</a>
+                                </div>
+
+                                <div class="articles">
+                                    <h6 class="text-muted mb-3">LATEST ARTICLES</h6>
+
+                                    <div class="article-box">
+                                        <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Volkswagen/Virtus/10184/1697177611743/front-left-side-47.jpg"
+                                            alt="Car 1">
+                                        <p>Volkswagen Turns 3 - Highest Selling Sedan in India in 2024!</p>
+                                    </div>
+
+                                    <div class="article-box">
+                                        <img src="https://imgd.aeplcdn.com/1056x594/n/cw/ec/144453/altroz-exterior-right-front-three-quarter.jpeg?isig=0"
+                                            alt="Car 2">
+                                        <p>Tata Altroz Facelift Mid-spec Pure Variant Reaches Dealers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 search1" type="search" placeholder="Search"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <!-- <section class="section1">
+        <div class="container sectionh3">
+            <div class="row">
+                <div class="col-md-12 my-5">
+                    <h3>Expert Reviwes | Recommend Cars | EMI Calculaters</h3>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section>
+        <div class="container-fluid px-0">
+            <div class="position-relative text-center">
+                <img src="imgs/bg01-Seltos-Line.avif" class="img-fluid w-100" alt="Kia Seltos">
+                <div class="position-absolute top-0 start-50 translate-middle-x mt-4">
+                    <h4 class="fw-semibold text-dark bg-light bg-opacity-50 px-3 py-2 rounded">
+                        Expert Reviews | Recommend Cars | EMI Calculators
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="py-4 text-center">
+        <div class="container border border-white section2">
+            <div class="row py-3">
+                <div class="col-md-3 col-6">
+                    <h4>20+</h4>
+                    <h5>State served</h5>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4>400+</h4>
+                    <h5>Number of vehicles</h5>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4>8</h4>
+                    <h5>Years of business</h5>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4>285+</h4>
+                    <h5>Number of cars solo out</h5>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="text-center">
+        <div class="container my-4 brands-container allbrand">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/tata.png " alt="Tata " width="100px">
+                        <div class="brand-name">Tata</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/MARUTI.png" alt="Maruti Suzuki" width="80px">
+                        <div class="brand-name">Maruti Suzuki</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/Mahindra-Mahindra.png" alt="Mahindra" width="100px">
+                        <div class="brand-name">Mahindra</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/kia-removebg-preview.png" alt="Kia" width="100px">
+                        <div class="brand-name">Kia</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/hyndai logo.png" alt="Hyundai" width="100px">
+                        <div class="brand-name">Hyundai</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/Toyota-Symbol.png" alt="Toyota" width="100px">
+                        <div class="brand-name">Toyota</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/volkswagen-logo.png" alt="Volkswagen" width="100px">
+                        <div class="brand-name">Volkswagen</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/bmw.png" alt="BMW" width="100px">
+                        <div class="brand-name">BMW</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/Skoda-Logo.png" alt="Skoda" width="100px">
+                        <div class="brand-name">Skoda</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/benz-logo.png" alt="Mercedes-Benz" width="100px">
+                        <div class="brand-name">Mercedes-Benz</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/LandRover.png" alt="Land Rover" width="100px">
+                        <div class="brand-name">Land Rover</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-card">
+                        <img src="imgs/Honda.png" alt="Honda" width="100px">
+                        <div class="brand-name">Honda</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more py-3">
+                <a href="#">View More Brands</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container my-5">
+            <h2 class="text-center mb-4 fw-bold">Cars by Budget</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="border rounded p-3 text-center h-100 shadow-sm">
+                        <p class="text-secondary fw-medium mb-2">Cars Under 10lakh</p>
+                        <img src="imgs/altroz-card.avif" class="img-fluid mb-3" alt="Tata Altroz">
+                        <h6 class="fw-semibold">Tata altroz</h6>
+                        <p class="mb-2">6.89–11.49 lakh</p>
+                        <a href="#" class="text-primary text-decoration-none fw-medium">View Price Breakup</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="border rounded p-3 text-center h-100 shadow-sm">
+                        <p class="text-secondary fw-medium mb-2">20lakh</p>
+                        <img src="imgs/scorpio-n-card.avif" class="img-fluid mb-3" alt="Scorpio-N">
+                        <h6 class="fw-semibold">Scorpio-N</h6>
+                        <p class="mb-2">13.99–25.49 lakh</p>
+                        <a href="#" class="text-primary text-decoration-none fw-medium">View Price Breakup</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="border rounded p-3 text-center h-100 shadow-sm">
+                        <p class="text-secondary fw-medium mb-2">20–30lakh</p>
+                        <img src="imgs/xuv700 card.webp" class="img-fluid mb-3" alt="XUV700">
+                        <h6 class="fw-semibold">xuv700</h6>
+                        <p class="mb-2">14.49–25.89 lakh</p>
+                        <a href="#" class="text-primary text-decoration-none fw-medium">View Price Breakup</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="border rounded p-3 text-center h-100 shadow-sm">
+                        <p class="text-secondary fw-medium mb-2">Luxury cars</p>
+                        <img src="imgs/defender card.webp" class="img-fluid mb-3" alt="Defender">
+                        <h6 class="fw-semibold">Defender</h6>
+                        <p class="mb-2">1.05–2.79 lakh</p>
+                        <a href="#" class="text-primary text-decoration-none fw-medium">View Price Breakup</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container-fluid p-0 position-relative"
+            style="background: url('imgs/tata\ bg2.png') center/cover no-repeat; min-height: 100vh;">
+
+            <div class="row m-0 h-100 align-items-center text-white" style="background: rgba(0,0,0,0.4);">
+                <div class="col-md-4 text-center text-md-start ps-md-5 mb-4 mb-md-0">
+                    <h2 class="fw-bold">TATA MOTORS<br>CONNECTING<br>ASPIRATIONS</h2>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <!-- <img src="imgs/tata -log-bg.png" class="img" alt="Tata Harrier" style="max-height: 400px; width: 200px;"> -->
+                </div>
+                <div class="col-md-4 d-flex justify-content-center my-5">
+                    <div class="bg-white text-dark p-4 rounded shadow" style="min-width: 280px; max-width: 340px;">
+                        <img src="imgs/tata -log-bg.png" class="img-fluid mb-3" alt="Tata Logo"
+                            style="max-height: 50px;">
+                        <h5 class="fw-bold mb-3">Check on-Road Price</h5>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select">
+                                <option selected>Select city</option>
+                                <option>Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Chennai</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container my-4">
+            <h4 class="fw-bold mb-4">Latest Car Updates</h4>
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imgs/tata sec1.avif" class="card-img-top" alt="Maruti e Vitara">
+                        <div class="card-body">
+                            <h5 class="card-title">India-made Maruti e Vitara to be Exported to Japan</h5>
+                            <p class="card-text"><small class="text-muted">By Desirazu Venkat 03 Jun 2025</small><br>
+                                The e Vitara will be produced in India for the global markets
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imgs/tata sec2.avif" class="card-img-top" alt="Tata Altroz">
+                        <div class="card-body">
+                            <h5 class="card-title">Tata Altroz Facelift Bookings Open Begin Soon</h5>
+                            <p class="card-text"><small class="text-muted">By Aditya Nadkarni 02 Jun 2025</small><br>
+                                It is available in seven variants and five colours.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imgs/tata sec3.avif" class="card-img-top" alt="Volkswagen Tayron">
+                        <div class="card-body">
+                            <h5 class="card-title">Volkswagen Tayron India Launch: What to Expect</h5>
+                            <p class="card-text"><small class="text-muted">By Ninad Ambre 02 Jun 2025</small><br>
+                                Volkswagen will manufacture the Tayron in Germany, Mexico,...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container my-5">
+            <h3 class="mb-4">Popular Used Cars in Chennai</h3>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="d-flex flex-column flex-md-row align-items-center border rounded-4 shadow-sm p-3 h-100">
+                        <img src="imgs/swift-11.avif" alt="Swift" class="img-fluid" style="max-width: 200px;">
+                        <div class="ms-md-4 mt-3 mt-md-0 text-center text-md-start">
+                            <h5 class="fw-semibold">Used Maruti Suzuki Swift</h5>
+                            <p class="mb-1">
+                                <strong>Rs. 1.8 Lakh</strong>
+                                <span class="text-muted">Onwards</span>
+                            </p>
+                            <p class="mb-1">Explore in:</p>
+                            <div class="d-flex justify-content-center justify-content-md-start gap-2">
+                                <button class="btn btn-outline-secondary rounded-pill btn-sm">Coimbatore</button>
+                                <button class="btn btn-outline-secondary rounded-pill btn-sm">Madurai</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column flex-md-row align-items-center border rounded-4 shadow-sm p-3 h-100">
+                        <img src="imgs/seltos-11.avif" alt="Kia Seltos" class="img-fluid" style="max-width: 200px;">
+                        <div class="ms-md-4 mt-3 mt-md-0 text-center text-md-start">
+                            <h5 class="fw-semibold">Used Kia Seltos</h5>
+                            <p class="mb-1">
+                                <strong>Rs. 8.2 Lakh</strong>
+                                <span class="text-muted">Onwards</span>
+                            </p>
+                            <p class="mb-1">Explore in:</p>
+                            <div class="d-flex justify-content-center justify-content-md-start gap-2">
+                                <button class="btn btn-outline-secondary rounded-pill btn-sm">Coimbatore</button>
+                                <button class="btn btn-outline-secondary rounded-pill btn-sm">Madurai</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-5">
+            <h4 class="mb-4 fw-bold">Get Offers on Popular Cars</h4>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card border-0 shadow-sm rounded-4 h-100">
+                        <img src="imgs/compass-exterior-3.webp" class="card-img-top p-3" alt="Jeep Compass">
+                        <div class="card-body text-center">
+                            <h6 class="card-title mb-1">Jeep Compass</h6>
+                            <p class="mb-1"><strong>Rs. 24.28 Lakh</strong> <span class="text-muted">onwards</span></p>
+                            <a href="#" class="text-primary fw-semibold text-decoration-none">View Price Breakup</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card border-0 shadow-sm rounded-4 h-100">
+                        <img src="imgs/slavia-exterior-right-222.avif" class="card-img-top p-3" alt="Skoda Slavia">
+                        <div class="card-body text-center">
+                            <h6 class="card-title mb-1">Skoda Slavia</h6>
+                            <p class="mb-1"><strong>Rs. 13.05 Lakh</strong> <span class="text-muted">onwards</span></p>
+                            <a href="#" class="text-primary fw-semibold text-decoration-none">View Price Breakup</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card border-0 shadow-sm rounded-4 h-100">
+                        <img src="imgs/virtus-exterior-333.webp" class="card-img-top p-3" alt="Volkswagen Virtus">
+                        <div class="card-body text-center">
+                            <h6 class="card-title mb-1">Volkswagen Virtus</h6>
+                            <p class="mb-1"><strong>Rs. 14.35 Lakh</strong> <span class="text-muted">onwards</span></p>
+                            <a href="#" class="text-primary fw-semibold text-decoration-none">View Price Breakup</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card border-0 shadow-sm rounded-4 h-100">
+                        <img src="imgs/city-exterior-444.webp" class="card-img-top p-3" alt="Honda City">
+                        <div class="card-body text-center">
+                            <h6 class="card-title mb-1">Honda City</h6>
+                            <p class="mb-1"><strong>Rs. 15.44 Lakh</strong> <span class="text-muted">onwards</span></p>
+                            <a href="#" class="text-primary fw-semibold text-decoration-none">View Price Breakup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-4 g-4">
+            <h4 class="fw-bold mb-4">Compare Cars</h4>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="border rounded p-3 text-center">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="imgs/harrier-ev-1.avif" class="img-fluid" alt="Harrier EV">
+                                <div class="fw-semibold mt-2">Tata<br>Harrier EV</div>
+                                <div class="text-muted">Rs. 22.96 Lakh</div>
+                                <small class="text-muted">onwards</small>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-center">
+                                <span class="border rounded-circle px-2 text-danger fw-bold">VS</span>
+                            </div>
+                            <div class="col-5">
+                                <img src="imgs/xev-9e-11.avif" class="img-fluid" alt="XEV 9e">
+                                <div class="fw-semibold mt-2">Mahindra<br>XEV 9e</div>
+                                <div class="text-muted">Rs. 23.20 Lakh</div>
+                                <small class="text-muted">onwards</small>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-3">Compare Now</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="border rounded p-3 text-center">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="imgs/altroz-11.avif" class="img-fluid" alt="Altroz">
+                                <div class="fw-semibold mt-2">Tata<br>Altroz</div>
+                                <div class="text-muted">Rs. 8.26 Lakh</div>
+                                <small class="text-muted">onwards</small>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-center">
+                                <span class="border rounded-circle px-2 text-danger fw-bold">VS</span>
+                            </div>
+                            <div class="col-5">
+                                <img src="imgs/nexon-11.avif" class="img-fluid" alt="Nexon">
+                                <div class="fw-semibold mt-2">Tata<br>Nexon</div>
+                                <div class="text-muted">Rs. 9.51 Lakh</div>
+                                <small class="text-muted">onwards</small>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-3">Compare Now</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="border rounded p-3 text-center">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="imgs/creta-11.avif" class="img-fluid" alt="Creta">
+                                <div class="fw-semibold mt-2">Hyundai<br>Creta</div>
+                                <div class="text-muted">Rs. 13.81 Lakh</div>
+                                <small class="text-muted">onwards</small>
+                            </div>
+                            <div class="col-2 d-flex align-items-center justify-content-center">
+                                <span class="border rounded-circle px-2 text-danger fw-bold">VS</span>
+                            </div>
+                            <div class="col-5">
+                                <img src="imgs/seltos-111.avif" class="img-fluid" alt="Seltos">
+                                <div class="fw-semibold mt-2">Kia<br>Seltos</div>
+                                <div class="text-muted">Rs. 13.88 Lakh</div>
+                                <small class="text-muted">onwards</small>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-3">Compare Now</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <h3 class="mb-4 fw-bold">Cars by Fuel Type</h3>
+            <!-- Tabs -->
+            <ul class="nav nav-tabs mb-3" id="fuelTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="electric-tab" data-bs-toggle="tab" data-bs-target="#electric"
+                        type="button" role="tab">Electric Cars</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="hybrid-tab" data-bs-toggle="tab" data-bs-target="#hybrid" type="button"
+                        role="tab">Hybrid Cars</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cng-tab" data-bs-toggle="tab" data-bs-target="#cng" type="button"
+                        role="tab">CNG Cars</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="fuelTabContent">
+                <!-- Electric Cars -->
+                <div class="tab-pane fade show active" id="electric" role="tabpanel">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="imgs/harrier-ev.avif" class="card-img-top" alt="Tata Harrier EV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tata Harrier EV</h5>
+                                    <p class="card-text">Rs. 22.96 Lakh</p>
+                                    <a href="#" class="text-primary">View Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="imgs/be-6e-ev.webp" class="card-img-top" alt="Mahindra BE 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahindra BE 6</h5>
+                                    <p class="card-text">Rs. 20.06 - 29.42 Lakh</p>
+                                    <a href="#" class="text-primary">View Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="imgs/xev-9e-ev.webp" class="card-img-top" alt="Mahindra XEV 9e">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahindra XEV 9e</h5>
+                                    <p class="card-text">Rs. 23.20 - 33.32 Lakh</p>
+                                    <a href="#" class="text-primary">View Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="imgs/nexon-ev.webp" class="card-img-top" alt="Tata Nexon EV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tata Nexon EV</h5>
+                                    <p class="card-text">Rs. 13.44 - 18.36 Lakh</p>
+                                    <a href="#" class="text-primary">View Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p class="mt-3">Showing On-Road Price, <a href="#" class="text-decoration-underline">Chennai</a></p>
+                    <a href="#" class="text-decoration-none">All Electric Cars &rarr;</a>
+                </div>
+                <!-- Hybrid Cars -->
+                <div class="tab-pane fade" id="hybrid" role="tabpanel">
+                    <div class="container py-5">
+                        <div class="row g-3">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card h-100">
+                                    <img src="imgs/hyryder-exterior-444.webp" class="card-img-top"
+                                        alt="Toyota Urban Cruiser Hyryder">
+                                    <div class="card-body">
+                                        <h5 class="card-title" title="Toyota Urban Cruiser Hyryder">Toyota Urban
+                                            Cruiser...</h5>
+                                        <p class="card-text">Rs. 14.24 - 25.47 Lakh</p>
+                                        <a href="#" class="text-primary">View Price Breakup</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card h-100">
+                                    <img src="imgs/grand-vitara-exterior-4444.webp" class="card-img-top"
+                                        alt="Maruti Grand Vitara">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Maruti Grand Vitara</h5>
+                                        <p class="card-text">Rs. 14.27 - 26.08 Lakh</p>
+                                        <a href="#" class="text-primary">View Price Breakup</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card h-100">
+                                    <img src="imgs/innova-hycross-exterior-4444.webp" class="card-img-top"
+                                        alt="Toyota Innova Hycross">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Toyota Innova Hycross</h5>
+                                        <p class="card-text">Rs. 25.01 - 41.28 Lakh</p>
+                                        <a href="#" class="text-primary">View Price Breakup</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="card h-100">
+                                    <img src="imgs/vellfire-exterior-4444.webp" class="card-img-top"
+                                        alt="Toyota Vellfire">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Toyota Vellfire</h5>
+                                        <p class="card-text">Rs. 1.52 - 1.64 Crore</p>
+                                        <a href="#" class="text-primary">View Price Breakup</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CNG Cars -->
+                <div class="tab-pane fade" id="cng" role="tabpanel">
+                    <div class="container py-4">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                            <div class="col">
+                                <div class="card car-card h-100 text-center p-3">
+                                    <img src="imgs/nexon-exterior-555.webp" alt="Tata Nexon" class="car-img">
+                                    <div class="car-title">Tata Nexon</div>
+                                    <div class="car-price">Rs. 9.51 - 19.25 Lakh</div>
+                                    <a href="#" class="price-link">View Price Breakup</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card car-card h-100 text-center p-3">
+                                    <img src="imgs/altroz-facelift-exterior-555.avif" alt="Tata Altroz" class="car-img">
+                                    <div class="car-title">Tata Altroz</div>
+                                    <div class="car-price">Rs. 8.26 - 14.35 Lakh</div>
+                                    <a href="#" class="price-link">View Price Breakup</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card car-card h-100 text-center p-3">
+                                    <img src="imgs/brezza-exterior-555.webp" alt="Maruti Brezza" class="car-img">
+                                    <div class="car-title">Maruti Brezza</div>
+                                    <div class="car-price">Rs. 10.26 - 17.36 Lakh</div>
+                                    <a href="#" class="price-link">View Price Breakup</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card car-card h-100 text-center p-3">
+                                    <img src="imgs/fronx-exterior-555.webp" alt="Maruti Fronx" class="car-img">
+                                    <div class="car-title">Maruti Fronx</div>
+                                    <div class="car-price">Rs. 9.03 - 16.21 Lakh</div>
+                                    <a href="#" class="price-link">View Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container py-4">
+            <h3 class="fw-bold mb-3">Latest Car Updates</h3>
+            <ul class="nav nav-tabs tab-nav mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Car News</a>
+                </li>
+            </ul>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card news-card">
+                        <img src="imgs/verna-exterior-666.avif" alt="Hyundai Verna" class="news-img">
+                        <div class="card-body">
+                            <div class="news-title">2025 Hyundai Verna SX+ Variant Launched: All You Need to Know</div>
+                            <div class="news-meta">
+                                By <strong>Ninad Ambre</strong>
+                                <span class="news-date">09 Jun 2025</span>
+                            </div>
+                            <div class="news-content mt-2">
+                                The new Hyundai Verna SX+ variant is positioned between the SX and SX(O)...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card news-card">
+                        <img src="imgs/grand-i10-nios-exterior-666.avif" alt="Hyundai Venue" class="news-img">
+                        <div class="card-body">
+                            <div class="news-title">Hyundai Launches Wired to Wireless Adapter For 6 More Cars</div>
+                            <div class="news-meta">
+                                By <strong>Aditya Nadkarni</strong>
+                                <span class="news-date">09 Jun 2025</span>
+                            </div>
+                            <div class="news-content mt-2">
+                                Priced at Rs. 4,499, it was initially introduced with the Alcazar in April 2025.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card news-card">
+                        <img src="imgs/altroz-interior-666.avif" alt="Tata Punch CNG" class="news-img">
+                        <div class="card-body">
+                            <div class="news-title">Tata Saw 53 Per Cent Growth in Demand for CNG-powered Cars</div>
+                            <div class="news-meta">
+                                By <strong>Desirazu Venkat</strong>
+                                <span class="news-date">09 Jun 2025</span>
+                            </div>
+                            <div class="news-content mt-2">
+                                Tata offers CNG power on five of its models and all of them have twin-cylinder tech a...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer class="footer pt-4">
+            <div class="container text-white">
+                <div class="row text-center text-md-start pb-3">
+                    <div class="col-md-2 offset-md-1 mb-3">
+                        <strong>Language:</strong> <span class="fw-bold">English</span> | हिंदी
+                    </div>
+                    <div class="col-md-9 d-md-flex justify-content-end">
+                        <a href="#" class="me-4">About Us</a>
+                        <a href="#" class="me-4">Careers</a>
+                        <a href="#" class="me-4">Terms & Conditions</a>
+                        <a href="#">Advertise</a>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="row text-center text-md-start align-items-center pb-3">
+                    <div class="col-md-6 mb-3">
+                        <h6 class="text-uppercase">Connect With Us</h6>
+                        <div class="social-icons mt-2">
+                            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 text-md-end">
+                        <h6 class="text-uppercase">Download Mobile App</h6>
+                        <div class="download-buttons mt-2">
+                            <a href="#"><img src="imgs/app-store.svg" alt="App Store" width="100px"></a>
+                            <a href="#"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                    alt="Google Play" width="100px"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <hr>
+                <div class="row text-center text-md-between pb-3">
+                    <div class="col-md-6">&copy; CarTrade Tech.</div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#">Visitor Agreement & Privacy Policy</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0f8cfe9d6e.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
